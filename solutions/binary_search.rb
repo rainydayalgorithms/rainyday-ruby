@@ -1,3 +1,7 @@
+# BINARY SEARCH
+# You are given a list of sorted numbers and a target number.
+# Return the index of the target number. If target does not exist, return -1
+
 def binary_search(nums, target)
   first = 0
   last = nums.length - 1

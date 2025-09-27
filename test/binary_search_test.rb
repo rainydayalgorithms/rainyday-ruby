@@ -22,4 +22,11 @@ class TestBinarySearch < Test::Unit::TestCase
     assert_equal 4, binary_search(test_list, target), 
     'If fifth item is target, should return 4'
   end
+
+    def test_search_finalindex
+    test_list = [1, 2, 3, 4, 5, 6 , 7, 8]
+    target = 8
+    assert_equal 7, binary_search(test_list, target), 
+    'If final index is target, should return 8'
+  end
 end
